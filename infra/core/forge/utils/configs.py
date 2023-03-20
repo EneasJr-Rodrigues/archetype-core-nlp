@@ -55,7 +55,7 @@ class Config:
     --------
     .. jupyter-execute::
 
-        from dextra.dna.core import Config
+        from infra.core.forge.utils.configs import Config
         config = Config('local')
         config.lakes.transient
 

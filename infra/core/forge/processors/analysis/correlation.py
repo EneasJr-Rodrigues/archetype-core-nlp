@@ -237,8 +237,8 @@ def one_to_many(df: DataFrame,
 
     See Also
     --------
-    dextra.dna.core.analysis.utils.columns : for further explanation on ``subset``.
-    dextra.dna.core.analysis.utils.is_categorical : for a detailed explanation on ``cat_threshold``.
+    *.core.analysis.utils.columns : for further explanation on ``subset``.
+    *.core.analysis.utils.is_categorical : for a detailed explanation on ``cat_threshold``.
 
     Returns
     -------
@@ -282,7 +282,7 @@ def correlation_matrix(
     See Also
     --------
     z_test_matrix : Check for correlation between each categorical-numeric pair of columns on a dataframe.
-    dextra.dna.core.analysis.utils.is_categorical : for a detailed explanation on ``cat_threshold``.
+    *.core.analysis.utils.is_categorical : for a detailed explanation on ``cat_threshold``.
 
     Parameters
     ----------
@@ -295,7 +295,7 @@ def correlation_matrix(
 
     See Also
     --------
-    dextra.dna.core.analysis.utils.columns : for further explanation on ``subset``.
+    *.core.analysis.utils.columns : for further explanation on ``subset``.
 
     Returns
     -------
@@ -343,8 +343,8 @@ def z_test_matrix(df: DataFrame,
 
     See Also
     --------
-    dextra.dna.core.analysis.utils.columns : for further explanation on ``subset``.
-    dextra.dna.core.analysis.utils.is_categorical : for a detailed explanation on ``cat_threshold``.
+    *.core.analysis.utils.columns : for further explanation on ``subset``.
+    *.core.analysis.utils.is_categorical : for a detailed explanation on ``cat_threshold``.
 
     Returns
     -------

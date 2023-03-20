@@ -84,7 +84,7 @@ def sankey(df: DataFrame,
 
     See Also
     --------
-    dextra.dna.core.analysis.utils.journey : for further explanation on how to
+    infra.core.analysis.utils.journey : for further explanation on how to
         create a frame of sequence of events.
 
     Examples
