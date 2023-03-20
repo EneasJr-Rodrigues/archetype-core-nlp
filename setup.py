@@ -15,7 +15,7 @@ setup(name='archetype-core-nlp',
       author=INFO['author'],
       author_email=INFO['author_email'],
       url=INFO['url'],
-      python_requires='>=3.9',
+      python_requires='>=3.8',
       entry_points={
           'console_scripts': ['core=infra.core.forge:main']
       },
