@@ -1,0 +1,9 @@
+lakes:
+  transient: 'gs://infra_archetype/transient'
+  raw: 'gs://infra_archetype/raw'
+  trusted: 'gs://infra_archetype/trusted'
+  refined: 'gs://infra_archetype/refined'
+  models: 'gs://infra_archetype/models'
+  backup: 'gs://infra_archetype/backup'
+  secrets: 'gs://infra_archetype/secrets'
+  config: 'gs://infra_archetype/config'

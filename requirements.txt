@@ -1,0 +1,27 @@
+setuptools
+wheel
+PyYAML
+pyspark
+findspark
+# deltalake
+
+## Normal libs
+numpy
+scipy
+pyspark
+pandas
+
+## Security
+# cryptography>=2.7
+
+## Models
+joblib>=0.14.1
+scikit-learn>=0.23
+joblibspark>=0.2.0
+
+## Notebooks
+notedown>=1.5.1
+jupyterthemes>=0.20.0
+
+## Visualization
+seaborn
