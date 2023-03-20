@@ -10,14 +10,14 @@ INFO = dict((l.strip().split('=') for l in INFO))
 
 DEPENDENCIES = open(os.path.join(PROJECT_DIR, 'requirements.txt')).readlines()
 
-setup(name='docker-infra',
+setup(name='archetype-core-nlp',
       version=INFO['version'],
       author=INFO['author'],
       author_email=INFO['author_email'],
       url=INFO['url'],
       python_requires='>=3.9',
       entry_points={
-          'console_scripts': ['core=docker-infra:main']
+          'console_scripts': ['core=infra.core.forge:main']
       },
       packages=find_namespace_packages(include=['infra.core.forge','infra.core.forge.*']),
       namespace_packages=['infra', 'infra.core'],
