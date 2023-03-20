@@ -1,10 +1,10 @@
 import os
 
-ARCH_REPO = 'git@github.com:EneasJr-Rodrigues/docker-infra.git'
-CORE_REPO = 'git@github.com:EneasJr-Rodrigues/docker-infra.git'
-CORE_TEXT_REPO = 'git@github.com:EneasJr-Rodrigues/docker-infra.git'
-CORE_IMAGE_REPO = 'git@github.com:EneasJr-Rodrigues/docker-infra.git'
-CORE_SPEECH_REPO = 'git@github.com:EneasJr-Rodrigues/docker-infra.git'
+ARCH_REPO = 'git@github.com:EneasJr-Rodrigues/archetype-core-nlp.git'
+CORE_REPO = 'git@github.com:EneasJr-Rodrigues/archetype-core-nlp.git'
+CORE_TEXT_REPO = 'git@github.com:EneasJr-Rodrigues/archetype-core-nlp.git'
+CORE_IMAGE_REPO = 'git@github.com:EneasJr-Rodrigues/archetype-core-nlp.git'
+CORE_SPEECH_REPO = 'git@github.com:EneasJr-Rodrigues/archetype-core-nlp.git'
 
 DEPS = (
     ('arch_lakehouse_core', ARCH_REPO, 'CORE_VERSION'),

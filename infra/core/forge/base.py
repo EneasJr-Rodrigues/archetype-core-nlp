@@ -33,8 +33,8 @@ def load_config(env_file: str) -> C:
 
 
 def assert_is_core_project(target):
-    if not os.path.exists(os.path.join(target, 'myra')):
-        raise RuntimeError('DnA project not found.\nMake sure your '
+    if not os.path.exists(os.path.join(target, 'archetype')):
+        raise RuntimeError('Infra Archetype project not found.\nMake sure your '
                            'current directory is a valid project.')
 
 

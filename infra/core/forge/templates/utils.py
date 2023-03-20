@@ -161,7 +161,7 @@ class stopwatch:
     --------
     .. jupyter-execute::
 
-        import dextra.dna.core as C
+        import infra.core.forge.processors.core as C
 
         with C.utils.stopwatch('Loading iris'):
             print('Samples loaded:', C.datasets.iris().count())

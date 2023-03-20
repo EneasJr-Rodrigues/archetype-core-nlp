@@ -164,7 +164,7 @@ class JobFull(Job):
 
 
 class Processor(TemplateGenerator):
-    DIRS = 'ink/core/forge/{SERVICE}/processors'
+    DIRS = 'infra/core/{SERVICE}/processors'
 
 
 class Test(TemplateGenerator):

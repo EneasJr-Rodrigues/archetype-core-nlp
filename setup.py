@@ -17,7 +17,7 @@ setup(name='archetype-core-nlp',
       url=INFO['url'],
       python_requires='>=3.8',
       entry_points={
-          'console_scripts': ['core=infra.core.forge:main']
+          'console_scripts': ['core-forge=infra.core.forge:main']
       },
       packages=find_namespace_packages(include=['infra.core.forge','infra.core.forge.*']),
       namespace_packages=['infra', 'infra.core'],
