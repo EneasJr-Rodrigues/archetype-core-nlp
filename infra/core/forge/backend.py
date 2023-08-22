@@ -108,12 +108,12 @@ class Local(Backend):
     }
 
     class Command(Backend.Command):
-        BUILD = 'docker-compose --env-file {_ENV_FILE} build'
+        BUILD = 'docker compose --env-file {_ENV_FILE} build'
         CLEAN = 'rm -rf {_TARGET}/lib/wheels'
-        START = 'docker-compose --env-file {_ENV_FILE} up -d'
-        STOP = 'docker-compose --env-file {_ENV_FILE} down'
-        RUN = 'docker-compose --env-file {_ENV_FILE} exec {SERVICE} python {JOB} {JOB_ARGS}'
-        TEST = 'docker-compose --env-file {_ENV_FILE} run --rm {SERVICE} tests {JOB_ARGS}'
+        START = 'docker compose --env-file {_ENV_FILE} up -d'
+        STOP = 'docker compose --env-file {_ENV_FILE} down'
+        RUN = 'docker compose --env-file {_ENV_FILE} exec {SERVICE} python {JOB} {JOB_ARGS}'
+        TEST = 'docker compose --env-file {_ENV_FILE} run --rm {SERVICE} tests {JOB_ARGS}'
         EXPLORE = 'firefox http://localhost:{JUPYTER_PORT}'
 
 
