@@ -127,3 +127,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+SWEETVIZ_REPORT.html
+
+devops/airflow/secrets
+devops/airflow/logs
+#devops/airflow/files/regressive_lakes.yml
+
+*.csv
+*.xlsx
+*.html
+*.png
+*.parquet
+*.wav
+*.mp3
+
+tests/regressive_test_output.ipynb
+tests/secrets/*
