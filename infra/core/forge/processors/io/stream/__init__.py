@@ -7,7 +7,7 @@ from pyspark.sql import functions as F
 
 from .conforming import conform
 from ..base import adapter, split_protocol_path
-from ....utils import to_list, unpack, is_list
+from infra.core.forge.utils.utils import to_list, unpack, is_list
 
 S = Union[str, F.DataFrame]
 S = Union[S, List[S]]
