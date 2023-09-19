@@ -17,12 +17,19 @@ def sklearn_ds(name: str, *args, **kwargs) -> DataFrame:
     --------
     .. code-block:: python
 
-        import dextra.dna.core as C
+        import yhbrasil.dna.core as C
         C.datasets.iris().limit(5).toPandas()
 
     """
     import pandas as pd
     from sklearn import datasets
+
+    NUMBERS = ('um dois tres quatro cinco seis sete oito nove dez onze doze '
+            'treze quatorze quinze dezesseis dezesete dezoito dezenove '
+            'vinte trinta quarenta cinquenta sessenta setenta oitenta '
+            'noventa cem duzentos trezentos quatrocentos quinhentos '
+            'seiscentos setecentos oitocentos novecentos mil milhao'
+            .split())    
 
     x = getattr(datasets, name)(*args, **kwargs)
     d = pd.DataFrame(x.data, columns=x.feature_names)
@@ -45,7 +52,7 @@ def wine() -> DataFrame:
     --------
     .. jupyter-execute::
 
-        import dextra.dna.core as C
+        import yhbrasil.dna.core as C
         C.datasets.wine().limit(2).toPandas()
 
     """
@@ -59,7 +66,7 @@ def iris() -> DataFrame:
     --------
     .. jupyter-execute::
 
-        import dextra.dna.core as C
+        import yhbrasil.dna.core as C
         C.datasets.iris().limit(2).toPandas()
 
     """
@@ -73,7 +80,7 @@ def digits() -> DataFrame:
     --------
     .. jupyter-execute::
 
-        import dextra.dna.core as C
+        import yhbrasil.dna.core as C
         C.datasets.digits().limit(2).toPandas()
 
     """
@@ -87,7 +94,7 @@ def boston() -> DataFrame:
     --------
     .. jupyter-execute::
 
-        import dextra.dna.core as C
+        import yhbrasil.dna.core as C
         C.datasets.boston().limit(2).toPandas()
 
     """
